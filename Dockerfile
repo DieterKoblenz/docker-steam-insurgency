@@ -17,4 +17,4 @@ WORKDIR /opt/insurgency
 ENTRYPOINT ["/usr/src/app/startup.sh"]
 
 # Run in insurgency in console mode
-CMD ["updaterun", "-console"]
+CMD ["updaterun", "-console", "-workshop"]
